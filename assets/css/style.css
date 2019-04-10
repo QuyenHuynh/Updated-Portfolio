@@ -18,7 +18,7 @@ li {
 }
 
 img {
-    width: 30%;
+    width: 25%;
     margin-left: 100px;
     margin-top: 10px;
     float: left;
@@ -54,7 +54,7 @@ footer {
 }
 #social {
     position: relative;
-    left: 12%;
+    left: 8%;
 }
 #copyright {
     position: relative;
