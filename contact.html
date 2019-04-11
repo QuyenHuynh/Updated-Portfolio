@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
     <!--google font-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand|Raleway" rel="stylesheet">
     <!--fontawesome-->
@@ -33,27 +35,41 @@
         <h2>Contact Me</h2>
         <div id="textforms">
             <br>
-            <label for="name">Name</label>
-            <br>
-            <input type="text" Name="name" id="name" placeholder="Name"/>
-            <br>
-
-            <br>
-            <label for="email">Email</label>
-            <br>
-            <input type="text" Name="email" id="email" placeholder="Email"/>
+            <label for="fname">Name *</label>
+            <input type="text" Name="name" id="name" placeholder="Name" />
             <br>
 
             <br>
-            <label for="message">Message</label>
+            <label for="email">Email * </label>
+            <br>
+            <input type="text" Name="email" id="email" placeholder="Email" />
+            <br>
+
+            <br>
+            <label for="email">Subject * </label>
+            <br>
+            <input type="text" Name="subject" id="subject" placeholder="Subject" />
+            <br>
+
+            <br>
+            <label for="message">Message *</label>
             <br>
             <textarea placeholder="Type your message here..."></textarea>
         </div>
         <br>
-        <button id="submit">Submit</button>
+        <button class="btn waves-effect grey lighten-5" type="submit" name="action"><span id="submit-text">Submit</span>
+            <i class="far fa-paper-plane"></i>
+        </button>
     </div>
     <br><br><br>
 
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <!--materialize js-->
+    <script src="assets/javascript/materialize.min.js"></script>
+    <!--custom js-->
+    <script src="assets/javascript/logic.js"></script>
 </body>
 <footer>
     <span id="social">

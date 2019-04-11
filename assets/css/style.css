@@ -2,6 +2,7 @@
     background-color: white;
     padding: 20px;
     margin-left: 50%;
+    z-index: 1;
 }
 
 ul {
@@ -18,7 +19,7 @@ li {
 }
 
 #mySelfie {
-    width: 28%;
+    width: 25%;
     margin-left: 100px;
     margin-top: 10px;
     float: left;
@@ -51,6 +52,7 @@ footer {
     display: inline;
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
+    z-index: 2;
 }
 #social {
     position: relative;
@@ -92,12 +94,38 @@ footer {
     margin: 0 auto;
 }
 .contact-container h2 {
-    margin-top: 20px;
     font-family: 'Playfair Display', serif;
 }
-#submit {
+#textforms {
+    margin-top: -20px;
+}
+
+button {
+    z-index: 1;
+}
+#submit-text {
+    color: black;
     font-family: 'Raleway', sans-serif;
 }
-.fas fa-file-download{
-    height: 50px;
+i.fa-paper-plane {
+    color: black;
+}
+textarea {
+    height: 100px;
+}
+#signature {
+    position: relative;
+    top: 120px;
+    right: 80px;
+}
+
+.portfolio-container {
+    width: 58%;
+    margin: 0 auto;
+    z-index: 3;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.portfolio-container h5 {
+    font-family: 'Raleway', sans-serif;
 }
