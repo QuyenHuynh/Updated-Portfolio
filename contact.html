@@ -32,35 +32,47 @@
     </div>
 
     <div class="contact-container">
-        <h2>Contact Me</h2>
-        <div id="textforms">
-            <br>
-            <label for="fname">Name *</label>
-            <input type="text" Name="name" id="name" placeholder="Name" />
-            <br>
+        <center>
+            <h2>Contact Me</h2>
+        </center>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                        <label for="first_name">Name *</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
 
-            <br>
-            <label for="email">Email * </label>
-            <br>
-            <input type="text" Name="email" id="email" placeholder="Email" />
-            <br>
+                <label for="email">Email * </label>
+                <br>
+                <input type="text" Name="email" id="email" placeholder="Email" />
+                <br>
 
-            <br>
-            <label for="email">Subject * </label>
-            <br>
-            <input type="text" Name="subject" id="subject" placeholder="Subject" />
-            <br>
+                <br>
+                <label for="email">Subject * </label>
+                <br>
+                <input type="text" Name="subject" id="subject" placeholder="Subject" />
+                <br>
 
-            <br>
-            <label for="message">Message *</label>
-            <br>
-            <textarea placeholder="Type your message here..."></textarea>
+                <br>
+                <label for="message">Message *</label>
+                <br>
+                <textarea placeholder="Type your message here..."></textarea>
+                <br>
+                <br>
+                <button class="btn waves-effect grey lighten-5" type="submit" name="action"><span
+                        id="submit-text">Submit</span>
+                    <i class="far fa-paper-plane"></i>
+                </button>
+            </form>
         </div>
-        <br>
-        <button class="btn waves-effect grey lighten-5" type="submit" name="action"><span id="submit-text">Submit</span>
-            <i class="far fa-paper-plane"></i>
-        </button>
     </div>
+
     <br><br><br>
 
     <!--jQuery-->
