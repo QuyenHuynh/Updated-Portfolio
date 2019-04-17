@@ -9,7 +9,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
     font-family: 'Playfair Display', serif;
 }
   
@@ -96,6 +95,9 @@ footer {
 .contact-container h2 {
     font-family: 'Playfair Display', serif;
 }
+.contact-container label {
+    background-color: white;
+}
 #textforms {
     margin-top: -20px;
 }
@@ -123,9 +125,103 @@ textarea {
     width: 58%;
     margin: 0 auto;
     z-index: 3;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
 }
-.portfolio-container h5 {
-    font-family: 'Raleway', sans-serif;
+.portfolio-container h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center
+}
+
+* {box-sizing:border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: crosshair;
+  position: relative;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(177, 190, 219);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: 700px;
+  bottom: 250px;
+}
+.prev {
+    right: 55px;
+    bottom: 250px;
+}
+
+/* On hover, add a transparent black background*/
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.caption {
+  color: black;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+/* circular indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  bottom: 40px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
