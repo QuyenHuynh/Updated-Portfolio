@@ -15,6 +15,7 @@ ul {
 li {
     display: inline;
     padding: 30px;
+    font-size: 18px;
 }
 
 #mySelfie {
