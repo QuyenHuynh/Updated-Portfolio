@@ -4,6 +4,11 @@
     margin-left: 50%;
     z-index: 1;
 }
+#logo{
+    visibility: hidden;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
 
 ul {
     list-style-type: none;
@@ -16,6 +21,10 @@ li {
     display: inline;
     padding: 30px;
     font-size: 18px;
+}
+
+.sidenav li {
+    padding: 0px;
 }
 
 #mySelfie {
@@ -172,11 +181,11 @@ img {vertical-align: middle;}
 
 /* Position the "next button" to the right */
 .next {
-  left: 720px;
-  bottom: 200px;
+    left: 100%;
+    bottom: 200px;
 }
 .prev {
-    right: 75px;
+    right: 12%;
     bottom: 200px;
 }
 
@@ -232,3 +241,22 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+#sidenav-btn {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    display: none;
+    z-index: 3;
+}
+
+@media screen and (max-width: 640px) {
+    #sidenav-btn {
+        display: inline;
+    }
+    .nav {
+        display: none;
+    }
+}
+@media screen and (min-width: 462x) and (max-width: 768px) {}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {}

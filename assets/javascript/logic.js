@@ -1,3 +1,10 @@
+//Mobile Sidenav
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
+
+//Portfolio slider
 var slideIndex = 1;
 showSlides(slideIndex);
 
