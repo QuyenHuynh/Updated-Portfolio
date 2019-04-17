@@ -125,10 +125,16 @@ textarea {
     width: 58%;
     margin: 0 auto;
     z-index: 3;
+    margin-top: -160px;
 }
 .portfolio-container h2 {
     font-family: 'Playfair Display', serif;
-    text-align: center
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+    position: relative;
+    font-size: 90px;
+    top: 530px;
+    right: 230px;
 }
 
 * {box-sizing:border-box}
@@ -165,12 +171,12 @@ img {vertical-align: middle;}
 
 /* Position the "next button" to the right */
 .next {
-  left: 700px;
-  bottom: 250px;
+  left: 720px;
+  bottom: 200px;
 }
 .prev {
-    right: 55px;
-    bottom: 250px;
+    right: 75px;
+    bottom: 200px;
 }
 
 /* On hover, add a transparent black background*/

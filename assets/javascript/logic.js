@@ -1,8 +1,3 @@
-// $('.carousel.carousel-slider').carousel({
-//   fullWidth: true,
-//   indicators: true
-// });
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
