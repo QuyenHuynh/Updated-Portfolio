@@ -1,7 +1,7 @@
 .nav {
     background-color: white;
     padding: 20px;
-    margin-left: 50%;
+    margin-left: 40%;
     z-index: 1;
 }
 #logo{
@@ -96,6 +96,7 @@ footer {
 }
 .about-container p {
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 .contact-container {
@@ -145,6 +146,29 @@ textarea {
     font-size: 90px;
     top: 530px;
     right: 230px;
+}
+#comphuman-container {
+    margin-top: -90px;
+}
+
+#comphuman-container h3 {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+#comphuman-container h4 {
+    font-family: 'Raleway', sans-serif;
+}
+#comphuman-container p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.gallery {
+    margin-right: 20px;
+    margin-bottom: 25px;
+    position: relative;
 }
 
 * {box-sizing:border-box}
