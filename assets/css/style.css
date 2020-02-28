@@ -58,7 +58,7 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.87);
-    display: inline;
+    /* display: inline; */
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
     z-index: 2;
@@ -147,20 +147,20 @@ textarea {
     top: 530px;
     right: 230px;
 }
-#comphuman-container {
+#humancomp-container {
     margin-top: -90px;
 }
 
-#comphuman-container h3 {
+#humancomp-container h3 {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Playfair Display', serif;
     font-weight: 100;
 }
 
-#comphuman-container h4 {
+#humancomp-container h4 {
     font-family: 'Raleway', sans-serif;
 }
-#comphuman-container p {
+#humancomp-container p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
