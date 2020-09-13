@@ -1,6 +1,6 @@
-# Updated-Portfolio
+# Portfolio 2019
 
-This is my updated portfolio made from scratch with an editorial, minimalist design in mind.
+This is my portfolio made from scratch with an editorial, minimalist design in mind.
 This was my first time using Materialize, and it might now be my favorite CSS framework.
 
 # Technologies used
